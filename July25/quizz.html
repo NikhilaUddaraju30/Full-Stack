@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="quizz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is the capital of India"?</p>
+                <input type="radio" name="q1" value="Telangana"> Telangana<br>
+                <input type="radio" name="q1" value="New Delhi"> New Delhi<br>
+                <input type="radio" name="q1" value="Maharastra"> Maharastra<br>
+                <input type="radio" name="q1" value="Karnataka"> Karnataka<br>
+            </div>
+            <div class="question">
+                <p>2. Name the national animal of India"?</p>
+                <input type="radio" name="q2" value="Lion"> Lion<br>
+                <input type="radio" name="q2" value="Dog"> Dog<br>
+                <input type="radio" name="q2" value="Tiger"> Tiger<br>
+                <input type="radio" name="q2" value="Cat"> Cat<br>
+            </div>
+            <div class="question">
+                <p>3. What is the profession of Virat Kohli</p>
+                <input type="radio" name="q3" value="Cricket Player"> Cricket Player<br>
+                <input type="radio" name="q3" value="Businessman"> Businessman<br>
+                <input type="radio" name="q3" value="Actor"> Actor<br>
+                <input type="radio" name="q3" value="Singer"> Singers<br>
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="quizz.js"></script>
+</body>
+</html>
